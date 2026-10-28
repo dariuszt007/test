@@ -3,7 +3,7 @@ const SITE_URL = "https://dariuszt007.github.io/test/";
 
 const auth0Config = {
   domain: "dev-zrgy8kuujx18b5rt.us.auth0.com",
-  clientId: "tpc_s5QX9693uvCNA1WZnWKLzd",
+  clientId: "m9tzyP7fMWxP5ZjhMqEaE3GJaKmN247p",
   authorizationParams: {
     redirect_uri: SITE_URL
   }
