@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test logowania Auth0</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 500px;
+      margin: 60px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    button {
+      padding: 10px 16px;
+      margin: 8px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: #2563eb;
+      color: white;
+      font-size: 16px;
+    }
+    button.logout {
+      background: #dc2626;
+    }
+    #user {
+      margin-top: 20px;
+      padding: 16px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      display: none;
+    }
+    img {
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Test logowania Auth0</h1>
+  <p id="status">Sprawdzanie logowania...</p>
 
+  <button id="login">Zaloguj</button>
+  <button id="logout" class="logout" style="display:none;">Wyloguj</button>
+
+  <div id="user">
+    <h2>Dane użytkownika</h2>
+    <p id="name"></p>
+    <p id="email"></p>
+    <img id="picture" width="80" height="80" alt="Avatar użytkownika" />
+  </div>
+
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.1/auth0-spa-js.production.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
