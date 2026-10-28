@@ -1,8 +1,8 @@
 const REPO_PATH = "/test";
 
 const auth0Config = {
-  domain: "TWOJA_DOMENA_AUTH0",
-  clientId: "TWOJ_CLIENT_ID",
+  domain: "dev-zrgy8kuujx18b5rt.us.auth0.com",
+  clientId: "tpc_s5QX9693uvCNA1WZnWKLzd",
   authorizationParams: {
     redirect_uri: "https://dariuszt007.github.io/test"
   }
